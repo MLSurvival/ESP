@@ -19,10 +19,8 @@ library(plyr)
 
 result<-matrix(nrow=1,ncol=12,byrow=T) #to save ESP result
 
-
 #read data
-data <- read.table("C:/Users/Owner/Desktop/M.Sc. CSC/my code for paper/real data/Naive Bayes/breast/breast.csv", header=TRUE, sep=",");
-#data <- read.table("...\\data\\data.csv", header=TRUE, sep=",");
+data <- read.table("...\\data\\data.csv", header=TRUE, sep=",");
 qvector<- c(0.50,.9)
 num1=dim(data)[2]
 q<-quantile(data[ ,num1],qvector)
