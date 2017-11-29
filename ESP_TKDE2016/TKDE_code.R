@@ -345,7 +345,7 @@ if(log){
   }
 }
 
-new_prob_event <- y/(y-(((1-y)*(1-A)*x)/(A*(1-x))))
+new_prob_event <- y/(y+(((1-y)*(1-A)*x)/(A*(1-x))))
 
 data_50$prob_new_event <- new_prob_event #basically we don't need this cloumn in 50% event data so we can add it to 100%- event data
 
