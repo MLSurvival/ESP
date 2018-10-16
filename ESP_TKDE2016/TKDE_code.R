@@ -1,5 +1,5 @@
 #ESP Algorithm for paper "A Bayesian Perspective on Early Stage Event Prediction in Longitudinal Data"
-#http://dmkd.cs.vt.edu/papers/TKDE17.pdf
+#http://dmkd.cs.vt.edu/papers/TKDE16a.pdf
 
 #The input file should be in [X,Status,Time]
 #X is the vectore of featuress
